@@ -13,13 +13,7 @@
     
 
     
-        <meta name="description" content="提前安装好(node.js)[https://nodejs.org/en] 左边的那个
-
-提前安装好(GIt)[https://git-scm.com/downloads]
-
-提前注册好一个github账号
-
-挂代理操作步骤：1.博客原文件路径不能存在中文2.在要创建博客的目录，右键启动Git Ba"/>
+        <meta name="description" content="1.配置java、py环境变量（此电脑–属性–高级系统设置–环境变量–path）py：java：vs插件vs插件， Codeium  ai插件（代理）2.代理1.下载clash：http://pan.sunwu.world:5244/d/%E7%BD%91%E7%9B%98/%E7%99%BE%E5"/>
     
     
     <!--Keywords-->
@@ -32,18 +26,12 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="笔记1"/>
+        <meta property="og:title" content="Hexo"/>
     
 
     <!--Open Graph Description-->
     
-        <meta property="og:description" content="提前安装好(node.js)[https://nodejs.org/en] 左边的那个
-
-提前安装好(GIt)[https://git-scm.com/downloads]
-
-提前注册好一个github账号
-
-挂代理操作步骤：1.博客原文件路径不能存在中文2.在要创建博客的目录，右键启动Git Ba"/>
+        <meta property="og:description" content="1.配置java、py环境变量（此电脑–属性–高级系统设置–环境变量–path）py：java：vs插件vs插件， Codeium  ai插件（代理）2.代理1.下载clash：http://pan.sunwu.world:5244/d/%E7%BD%91%E7%9B%98/%E7%99%BE%E5"/>
     
 
     <!--Open Graph Site Name-->
@@ -51,7 +39,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="article"/>
+        <meta property="og:type" content="website"/>
     
 
     <!--Page Cover-->
@@ -70,7 +58,7 @@
 
     <!-- Title -->
     
-    <title>笔记1 - Hexo</title>
+    <title>Hexo</title>
 
     <!-- Google Analytics -->
     
@@ -90,7 +78,7 @@
     <div class="container">
   <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-      <span class="fs-4">笔记1</span>
+      <span class="fs-4">Hexo</span>
     </a>
 
     <ul class="nav nav-pills">
@@ -189,7 +177,7 @@
                  <!-- Date and Author -->
                  
                 
-                <div>update <span>2024-07-10</span></div>
+                <div>update <span>2024-07-11</span></div>
             </div>
         </div>
     </div>
@@ -204,46 +192,8 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 -->
             <div class="mx-auto col-md-10 col-md-offset-1">
-                <ol>
-<li><p>提前安装好(node.js)[<a target="_blank" rel="noopener" href="https://nodejs.org/en">https://nodejs.org/en</a>] 左边的那个</p>
-</li>
-<li><p>提前安装好(GIt)[<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>]</p>
-</li>
-<li><p>提前注册好一个github账号</p>
-</li>
-<li><p>挂代理<br><a name="bGYH8"></a><br>操作步骤：<br>1.博客原文件路径不能存在中文<br />2.在要创建博客的目录，右键启动<code>Git Bash Here</code><br />3.使用 npm 命令 安装 Hexo，输入：<br />npm install -g hexo-cli                   &#x2F;&#x2F;安装hexo<br />	hexo init blog                                &#x2F;&#x2F;初始化一个名为blog的项目<br />	cd blog                                          &#x2F;&#x2F;进入blog<br />	hexo g                                           &#x2F;&#x2F;编译构建<br />构建成功后：<br /><img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720606944277-2f19dc60-ab98-4ee6-a380-474e19beea57.png#averageHue=%23faf9f8&clientId=u19aa4593-1756-4&from=paste&height=218&id=u8a8c95e3&originHeight=445&originWidth=853&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=48311&status=done&style=none&taskId=u9e31cac1-03e1-4670-88d5-ea64de67431&title=&width=417.8000183105469" alt="image.png"><br />4.cd 进入blog（创建xx就是xx）目录<br />为了检测我们的网站雏形，分别按顺序输入以下三条命令：<br />hexo new test_my_site           &#x2F;&#x2F;博客新建一个文章<br />hexo g                                   &#x2F;&#x2F;构建<br />hexo s                                   &#x2F;&#x2F;启动服务<br />之后就可以访问127.0.0.1:4000访问blog了</p>
-</li>
-<li><p>配置ssh</p>
-<blockquote>
-<p>cd ~&#x2F;.ssh		<br>检查本机已存在的ssh密钥     	<br>如果提示：No such file or directory 说明你是第一次使用git。</p>
-</blockquote>
-</li>
-</ol>
-<blockquote>
-<p>ssh-keygen -t rsa -C “邮件地址”</p>
-</blockquote>
-<p>（邮箱为GitHub创建的邮箱）然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到.ssh\id_rsa.pub文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key：<br /><img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720607620645-eef91d92-9d63-4b80-9fe1-a68c321f5258.png#averageHue=%230f141a&clientId=u19aa4593-1756-4&from=paste&height=120&id=u7f02233e&originHeight=150&originWidth=1251&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=13496&status=done&style=none&taskId=u9010bc76-798a-4741-a7c9-c2481aed165&title=&width=1000.8" alt="image.png"><br />key填写C:\Users\Administrator.ssh\id_rsa.pub中的内容 <br />尝试ssh连接,测试是否成功<br />ssh -T <a href="mailto:git@github.com">git@github.com</a> # 注意邮箱地址不用改<br /><img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720607731408-40a8e001-e4c5-46f8-bd2a-7c7be08e67c3.png#averageHue=%23f3f3f3&clientId=u19aa4593-1756-4&from=paste&height=32&id=uc87b4050&originHeight=40&originWidth=782&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=4574&status=done&style=none&taskId=ucfcc4084-4a15-4382-a542-1025a6afb65&title=&width=625.6" alt="image.png"><br />在选中的位置(blog目录下)打开cmd(以管理员身份)<br />npm install hexo-deployer-git –save<br /><img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720607779542-1ea9080c-de82-45f4-adf2-2d48f16d9bee.png#averageHue=%23272524&clientId=u19aa4593-1756-4&from=paste&height=322&id=ufa5e810b&originHeight=402&originWidth=710&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=33981&status=done&style=none&taskId=u8410d2ee-b65e-4dac-a57e-6e361bfcf33&title=&width=568" alt="Image.png"></p>
-<p>继续进入 Git Bash Here配置：<br />git config –global user.name “luozhixiaowo”&#x2F;&#x2F; 你的github用户名，非昵称<br />git config –global user.email  “<a href="mailto:xxx@qq.com">xxx@qq.com</a>“&#x2F;&#x2F; 填写你的github注册邮箱</p>
-<ol start="6">
-<li>准备上传代码<br> 在github上新建一个存储库，命名为<code>github的用户名.github.io</code><br> 编辑_config.yml文件，在最后改成这样 deploy:</li>
-</ol>
-<p>deploy:<br />  type: git<br />  repository: <a href="mailto:&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#104;&#117;&#x62;&#46;&#x63;&#111;&#x6d;">&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#104;&#117;&#x62;&#46;&#x63;&#111;&#x6d;</a>:luozhixiaowo&#x2F;luozhixiaowo.github.io.git<br />  branch: main<br /><img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720608058459-b5911437-c503-40ae-9372-ec5a63940e84.png#averageHue=%23f6f5f4&clientId=u19aa4593-1756-4&from=paste&height=101&id=u576573aa&originHeight=126&originWidth=827&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=6681&status=done&style=none&taskId=u15089246-c861-4d91-a3f5-c8df0fcd507&title=&width=661.6" alt="image.png"><br>（注意保持格式，缩进不对，会导致一会儿，上传不成功 （缩进三格即可）<br>最后上传 ）<br />hexo d -g<br /><br>每次上传成功之后，需要等待1-3分钟，用来刷新页面<br /><img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720608142719-3f43d468-5e69-4a04-af21-7c2673a776bf.png#averageHue=%23151210&clientId=u19aa4593-1756-4&from=paste&height=471&id=u7921788b&originHeight=589&originWidth=669&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=50061&status=done&style=none&taskId=u77e156b5-6e12-4a0a-948e-e04ea31e8a7&title=&width=535.2" alt="Image.png"><br />在创建的存储库的设置中-pages-如图设置<img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720608242837-ff73538e-7002-4aad-9e90-c72a939f5d32.png#averageHue=%23fefcfc&clientId=u19aa4593-1756-4&from=paste&height=314&id=u291be403&originHeight=393&originWidth=877&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=60376&status=done&style=none&taskId=u52068d84-8d9f-433b-b0c1-a9a84c4c091&title=&width=701.6" alt="image.png"></p>
-<ol start="7">
-<li>hexo命令介绍</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;我的博客&quot; == hexo new &quot;我的博客&quot; #新建文章</span><br><span class="line">hexo new page &quot;pageName&quot; #新建页面</span><br><span class="line">hexo g == hexo generate #生成</span><br><span class="line">hexo s == hexo server #启动服务预览</span><br><span class="line">hexo d == hexo deploy #部署</span><br><span class="line"></span><br><span class="line">hexo server #Hexo会监视文件变动并自动更新，无须重启服务器</span><br><span class="line">hexo server -s #静态模式</span><br><span class="line">hexo server -p 5000 #更改端口</span><br><span class="line">hexo server -i 192.168.1.1 #自定义 IP</span><br><span class="line">hexo clean #清除缓存，若是网页正常情况下可以忽略这条命令</span><br><span class="line">hexo version  #查看Hexo的版本</span><br><span class="line">hexo generate #生成静态页面至public目录</span><br><span class="line"></span><br><span class="line">hexo s -g #生成并本地预览</span><br><span class="line">hexo d -g #生成并上传</span><br></pre></td></tr></table></figure>
-
-<ol start="8">
-<li>hexo目录结构</li>
-</ol>
-<blockquote>
-<p>+– .deploy      #hexo deploy生成的文件<br />+– node_modules  #npm组件<br />+– public        #生成的静态网页文件<br />+–scaffolds      #模板<br />+– source        #博客正文和其他源文件<br />|  +– _posts    #我们自己写的文章以md结尾<br />+– themes        #主题<br />+– _config.yml  #全局配置文件<br />– package.json  #定义了hexo所需要的各种模块</p>
-</blockquote>
-<ol start="9">
-<li>选择一个自己喜欢的主题，不知道有什么好用的主题可以直接，B站搜<code>HEXO主题</code><br />这里我用的是<a target="_blank" rel="noopener" href="http://yelog.org/2017/03/23/3-hexo-instruction/">3-hexo使用说明 | 叶落阁 (yelog.org)</a> </li>
-<li>关于如何写笔记看下一篇<a target="_blank" rel="noopener" href="https://sunwu57.github.io/2023/03/23/typora+PicGo+LskyPro+Obsidian%E5%AE%9E%E7%8E%B0%E6%96%87%E7%AB%A0%E7%AE%A1%E7%90%86/">typora+PicGo+LskyPro+Obsidian实现文章管理</a> </li>
-<li><a target="_blank" rel="noopener" href="http://sunwu.world/2023/03/25/markdown%e7%9a%84%e4%bd%bf%e7%94%a8%e8%af%b4%e6%98%8e/">markdown语法实例</a></li>
-</ol>
+                <p>1.配置java、py环境变量（此电脑–属性–高级系统设置–环境变量–path）<br />py：<br /><img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720605622376-916c5042-223f-409c-ac4c-3f933b341743.png#averageHue=%23f6f6f5&clientId=u401ec091-acbc-4&from=paste&height=78&id=u8a3ee587&originHeight=107&originWidth=534&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=3454&status=done&style=none&taskId=ud045a9b5-e7a6-441f-984f-b519d6b3d22&title=&width=388.3636363636364" alt="Image.png"><br />java：<br /><img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720605644187-e20ecf88-39e3-40c0-abc7-c02a2603fbc5.png#averageHue=%23fbfaf9&clientId=u401ec091-acbc-4&from=paste&height=28&id=u702aabb3&originHeight=38&originWidth=512&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=1264&status=done&style=none&taskId=ufc3773af-8af1-45c3-86f5-e7add3b0d93&title=&width=372.3636363636364" alt="Image.png"><br />vs插件<br />vs插件， <strong>Codeium</strong>  ai插件（代理）<br />2.代理<br />1.下载clash：<br /><a target="_blank" rel="noopener" href="http://pan.sunwu.world:5244/d/%E7%BD%91%E7%9B%98/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/%E8%BD%AF%E4%BB%B6%E5%A4%A7%E5%85%A8/Clash%20for%20Windows.zip">http://pan.sunwu.world:5244/d/%E7%BD%91%E7%9B%98/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/%E8%BD%AF%E4%BB%B6%E5%A4%A7%E5%85%A8/Clash%20for%20Windows.zip</a><br />2.登录注册：<br /><a target="_blank" rel="noopener" href="https://console.xenolink.net/#/register?code=vocvktBL">https://console.xenolink.net/#/register?code=vocvktBL</a><br /><a target="_blank" rel="noopener" href="https://console3.xenolk.com/#/register?code=vocvktBL">https://console3.xenolk.com/#/register?code=vocvktBL</a><br />3.购买<br />4.仪表盘 （一键订阅–复制订阅地址）<br />5.打开clash for windows（再url 复制订阅地址）<br />6.clash设置<br /><img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720605816720-f51b0732-83b8-4ca0-a3aa-0fbaa3a64117.png#averageHue=%23fbf9f9&clientId=u401ec091-acbc-4&from=paste&height=321&id=udf664fdf&originHeight=442&originWidth=679&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=99858&status=done&style=none&taskId=ub25c3838-408d-4afc-8131-08bf206b917&title=&width=493.8181818181818" alt="Image.png"><img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720605822137-18553ca5-a0ad-460c-b147-00675b64038e.png#averageHue=%23f6f4f4&clientId=u401ec091-acbc-4&from=paste&height=323&id=uc559b2f6&originHeight=444&originWidth=597&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=125728&status=done&style=none&taskId=u063a3908-39de-492a-9e72-a7d9eb03669&title=&width=434.1818181818182" alt="Image.png"><br />7.浏览器使用clash<br /><img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720605844190-028f077e-372c-428c-b24d-41c69d460bb7.png#averageHue=%23fbfaf9&clientId=u401ec091-acbc-4&from=paste&height=302&id=u1fe7157f&originHeight=415&originWidth=637&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=88572&status=done&style=none&taskId=uc37e41d8-3245-4c57-96fc-3ef2cd57a46&title=&width=463.27272727272725" alt="Image.png"><br />    8.代理插件（proxy SwitchyOmega）<img src="https://cdn.nlark.com/yuque/0/2024/png/21930979/1720605854522-c3b7306f-419b-47dd-be7e-3e08dc44c885.png#averageHue=%23f1f0f0&clientId=u401ec091-acbc-4&from=paste&height=459&id=uf6182ec7&originHeight=631&originWidth=1298&originalType=binary&ratio=1.375&rotation=0&showTitle=false&size=91361&status=done&style=none&taskId=ud9fc5cc5-54d5-4337-a7d7-69492210714&title=&width=944" alt="Image.png"><br />7.idea:安装–运行激活包–菜单（help–regist–激活码）</p>
+<p>小注：    互联协议查询（cip.cc）	<a target="_blank" rel="noopener" href="https://www.youtube.com/">https://www.youtube.com/</a>（油管）</p>
 
             </div>
 
